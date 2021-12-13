@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0127)https://server.think-cell.com/portal/en/recruitingtest.srf?sid=rB3f-_fo5LUtq00ZOPU8bsvSawKJgm9DPRhgZfJBevPwvgfbf_iPsMMfJfuhMjkv -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" trackingcookie="consent" javascript="enabled" cantrack="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="referrer" content="origin">
+		
+		<meta name="google-site-verification" content="-NNcvD_gJzqSp-HBpUgQS_t5ALaPcwj46r2FdsoRcQk">
+		<meta name="msvalidate.01" content="D31802FCEB4B1836C8DEC8F066A21FC0">
+		<meta name="y_key" content="2d56ae64a47b4e0d">
+		
+		<link href="https://server.think-cell.com/portal/favicon.ico" rel="shortcut icon">
+		<link href="https://server.think-cell.com/portal/images/logo_thinkcell_57.png" rel="apple-touch-icon">
+		<link href="https://server.think-cell.com/portal/images/logo_thinkcell_72.png" rel="apple-touch-icon" sizes="72x72">
+		<link href="https://server.think-cell.com/portal/images/logo_thinkcell_114.png" rel="apple-touch-icon" sizes="114x114">
+		<link href="https://server.think-cell.com/portal/images/logo_thinkcell_144.png" rel="apple-touch-icon" sizes="144x144">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="./Recruiting test __ think-cell_files/theme-1.0.24.css" rel="stylesheet">
+		
+		<meta property="og:type" content="website"><title>Recruiting test :: think-cell</title><meta property="og:title" content="think-cell :: Recruiting test"><meta name="description" content="Recruiting test"><meta property="og:description" content="Recruiting test"></head><body><div class="navbar-group"><nav class="navbar navbar-expand-lg navbar-upper"><div class="container-fluid"><a class="navbar-brand mr-auto" href="https://server.think-cell.com/portal/en/redirect.srf?url=https%3A%2F%2Fwww.think-cell.com%2Fen%2F"><div class="navbar-logo"></div></a></div></nav></div><main class="onlyuppernavigation">
+
+<div class="heading">
+	<h1>
+									Recruiting test
+						</h1>
+</div>
+
+<div class="section container-fluid">
+	<form action="https://server.think-cell.com/portal/en/recruitingtest.srf?sid=rB3f-_fo5LUtq00ZOPU8bsvSawKJgm9DPRhgZfJBevPwvgfbf_iPsMMfJfuhMjkv#CompilationResult" method="post" accept-charset="UTF-8">
+		<div class="row">
+			<div class="col-lg-9">
+				
+							
+					
+									  						<h2>Test assignment</h2>
+						<p>
+							Thank you for participating in our recruiting test.
+																																																		This will be a C++ programming test!
+																				</p>
+																											<div class="panel-group">
+									<div class="panel">
+										<div class="panel-heading collapsed" data-toggle="collapse" data-target="#howtoprepare" aria-expanded="false">
+											<h3 class="panel-title">
+																			How to prepare for this test
+											</h3>
+																	</div>
+										<div id="howtoprepare" class="panel-body collapse" style="">
+																									<p>
+												Install an editor and C++ compiler of your choice. Your solution will be compiled with GCC 7.2.0 (with <code>-std=c++17</code>), 
+												and you will have the chance to fix any compilation errors prior to submission.
+												You may use the standard libraries for the task. It is not permitted to use other libraries, however you will not need them anyway.
+											</p>
+											<p>
+												You are free in your choice of operating system and development environment. 
+												The task is a very general programming assignment testing general problem structuring and programming proficiency. 
+												The solution has to be submitted within a 9 hour time frame. Excellent C++ specialists often solve the problem in 
+												<strong>3 to 4 hours</strong>, and we leave it to the candidates to test their solutions thoroughly before handing them in (in case they finish early).
+											</p>
+											<p>
+												You must develop the solution yourself. You may not let others help you or search for existing solutions. Of course,
+												you may use any documentation of the C++ language or the C++ Standard Library. Do not give your solution to others or make it public.
+												It may entice others to send in plagiarized solutions, and thus make our recruiting less fair. If you use an online compiler, make sure that the privacy settings are set to private.
+												Publishing the task description is also considered cheating and will void your application.
+											</p>
+											<p>
+												The amount of code you need for a correct solution is relatively small, and you will spend most of the allocated time thinking rather than typing.
+												We would like to receive the best solution you can come up with!
+											</p>
+																								</div>
+									</div>
+								</div>
+																																		<h3>Task Description</h3>
+								<p>
+									<code>interval_map&lt;K,V&gt;</code> is a data structure that associates keys of type <var>K</var> with values of type <var>V</var>.
+									It is designed to be used efficiently in situations where intervals of consecutive keys are associated with the same value.
+									Your task is to implement the <code>assign</code> member function of this data structure, which is outlined below. 
+								</p>
+								<p>
+									<code>interval_map&lt;K, V&gt;</code> is implemented on top of <code>std::map</code>. For more information on
+									<code>std::map</code>, you may refer to <a class="extlink" href="https://en.cppreference.com/w/cpp/container/map" target="_blank">cppreference.com</a>.
+								</p>
+								<p>
+									Each key-value-pair (<var>k</var>,<var>v</var>) in <code>interval_map&lt;K,V&gt;::m_map</code> means that the value <var>v</var> is associated with all keys from <var>k</var> (including) to
+									the next key (excluding) in <code>m_map</code>. The member <code>interval_map&lt;K,V&gt;::m_valBegin</code> holds the value that is associated with all keys
+									less than the first key in <code>m_map</code>.
+								</p>
+								<p>
+									Example: Let <var>M</var> be an instance of <code>interval_map&lt;int,char&gt;</code> where
+								</p>
+								<ul class="indented list-unstyled">
+									<li><code>M.m_valBegin=='A'</code>,</li>
+									<li><code>M.m_map=={ (1,'B'), (3,'A') }</code>,</li>
+								</ul>
+								<p>
+									Then <var>M</var> represents the mapping
+								</p>
+								<ul class="indented list-unstyled">
+									<li>...</li>
+									<li><code>-2 -&gt; 'A'</code></li>
+									<li><code>-1 -&gt; 'A'</code></li>
+									<li><code>0 -&gt; 'A'</code></li>
+									<li><code>1 -&gt; 'B'</code></li>
+									<li><code>2 -&gt; 'B'</code></li>
+									<li><code>3 -&gt; 'A'</code></li>
+									<li><code>4 -&gt; 'A'</code></li>
+									<li><code>5 -&gt; 'A'</code></li>
+									<li>...</li>
+								</ul>
+								<p>
+									The representation in the <code>std::map</code> must be canonical, that is, consecutive map entries must not contain the same value: <code>..., (3,'A'), (5,'A'), ...</code> is not allowed.
+									Likewise, the first entry in <code>m_map</code> must not contain the same value as <code>m_valBegin</code>.
+									Initially, the whole range of <var>K</var> is associated with a given initial value, passed to the constructor of the <code>interval_map&lt;K,V&gt;</code> data structure.
+								</p>
+								<p><strong>Key type <var>K</var></strong></p>
+								<ul>
+									<li>besides being copyable and assignable, is less-than comparable via <code>operator&lt;</code>, and</li>
+									<li>does not implement any other operations, in particular no equality comparison or arithmetic operators.</li>
+								</ul>
+								<p><strong>Value type <var>V</var></strong></p>
+								<ul>
+									<li>besides being copyable and assignable, is equality-comparable via <code>operator==</code>, and</li>
+									<li>does not implement any other operations.</li>
+								</ul>
+							</div><div class="col-12"><p>You are given the following source code:</p><pre><code>#include &lt;map&gt;
+template&lt;typename K, typename V&gt;
+class interval_map {
+	friend void IntervalMapTest();
+	V m_valBegin;
+	std::map&lt;K,V&gt; m_map;
+public:
+	// constructor associates whole range of K with val
+	interval_map(V const&amp; val)
+	: m_valBegin(val)
+	{}
+
+	// Assign value val to interval [keyBegin, keyEnd).
+	// Overwrite previous values in this interval.
+	// Conforming to the C++ Standard Library conventions, the interval
+	// includes keyBegin, but excludes keyEnd.
+	// If !( keyBegin &lt; keyEnd ), this designates an empty interval,
+	// and assign must do nothing.
+	void assign( K const&amp; keyBegin, K const&amp; keyEnd, V const&amp; val ) {
+</code></pre><div class="form-group"><textarea placeholder="Please insert your solution here" class="form-control text-monospace" name="txtareactrlSolutionPart1" id="txtareactrlSolutionPart1" rows="20"></textarea></div><pre><code>
+	}
+
+	// look-up of the value associated with key
+	V const&amp; operator[]( K const&amp; key ) const {
+		auto it=m_map.upper_bound(key);
+		if(it==m_map.begin()) {
+			return m_valBegin;
+		} else {
+			return (--it)-&gt;second;
+		}
+	}
+};
+
+// Many solutions we receive are incorrect. Consider using a randomized test
+// to discover the cases that your implementation does not handle correctly.
+// We recommend to implement a test function that tests the functionality of
+// the interval_map, for example using a map of int intervals to char.</code></pre></div><div class="col-lg-9"><div class="row align-items-baseline"><div class="col-auto"><p>You can download this source code here: </p></div><div class="col-auto"><button type="submit" class="btn btn-default" name="btnctrlDownload" id="btnctrlDownload">Download</button></div></div><p>Your task is to implement the function <code>assign</code>. Your implementation is graded by the following criteria in this order:</p><ul class="list-custom"><li class="icon-dot"><strong>Type requirements are met:</strong> You must adhere to the specification of the key and value type given above. </li><li class="icon-dot"><strong>Correctness:</strong> Your program should produce a working <code>interval_map</code> with the behavior described above. In particular, pay attention to the validity of iterators. It is illegal to dereference end iterators. Consider using a checking STL implementation such as the one shipped with Visual C++ or GCC. </li><li class="icon-dot"><strong>Canonicity:</strong> The representation in <code>m_map</code> must be canonical. </li><li class="icon-dot"><p><strong>Running time:</strong> Imagine your implementation is part of a library, so it should be big-O optimal. In addition:</p><ul><li>Do not make big-O more operations on <var>K</var> and <var>V</var> than necessary because you do not know how fast operations on <var>K</var>/<var>V</var> are; remember that constructions, destructions and assignments are operations as well.</li><li>Do not make more than one operation of amortized O(log <var>N</var>), in contrast to O(1), running time, where <var>N</var> is the number of elements in <code>m_map</code>. </li><li>Otherwise favor simplicity over minor speed improvements.</li></ul></li></ul>
+																																																								<a name="Deadline"></a><p>You should not take longer than 9 hours, but you may of course be faster. Do not rush, we would not give you this assignment if it were trivial.</p><p>When you are done, please complete the form and click <span class="button">Compile</span>. You can improve and compile solutions as often as you like.</p><button type="submit" class="btn btn-primary mb-3" name="btnctrlCompile" id="btnctrlCompile">Compile</button><a name="CompilationResult"></a><p>Further instructions will be given once your code compiles correctly.</p>
+											  							</div>
+		</div>
+	</form>
+</div>
+
+</main><div id="footer" class="darkgray-inverse"><div class="container-fluid"><div class="row"><div class="col-auto mr-auto">©2002-2021 think-cell Sales GmbH &amp; Co. KG</div><div class="col-auto"><a href="https://server.think-cell.com/portal/en/redirect.srf?url=https%3A%2F%2Fwww.think-cell.com%2Fen%2Fprivacy">Privacy Policy</a> <a href="https://server.think-cell.com/portal/en/redirect.srf?url=https%3A%2F%2Fwww.think-cell.com%2Fen%2Fcompany%2Flegalnotice.html">Contact information and legal notice</a></div></div></div></div><script type="text/javascript" defer="" async="" src="./Recruiting test __ think-cell_files/piwik.js.download"></script><script>var _paq=_paq || [];_paq.push(["setCustomUrl", "https://server.think-cell.com/portal/en/recruitingtest.srf"]);_paq.push(["setCustomDimension", customDimensionId=1, customDimensionValue="200"]);_paq.push(["setCustomDimension", customDimensionId=2, customDimensionValue="false"]);_paq.push(["setCustomVariable", 1, "UserId", "61B03C3F-FA23-47E8-84DD-056E48911FB6", "visit"]);</script>		<script>
+			// initialize Matomo
+			var _paq=_paq || [];
+			_paq.push(["requireConsent"]);
+			_paq.push(["setCookieDomain", "*.think-cell.com"]);
+			_paq.push(["setDomains", ["*.think-cell.com"]]);
+			_paq.push(["trackPageView"]);
+			_paq.push(["enableLinkTracking"]);
+			(function () {
+				var u="https://www.think-cell.com/piwik/";
+				_paq.push(["setTrackerUrl", u + "piwik.php"]);
+				_paq.push(["setSiteId", 1]);
+				var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+				g.defer=true; g.async=true; g.src=u + "piwik.js"; s.parentNode.insertBefore(g, s);
+			})();
+			
+			document.addEventListener("DOMContentLoaded", function(event) {
+				// derive initial state of tracking cookie consent from Matomo state
+				if(localStorage.getItem("consent")) {
+					_paq.push(["rememberConsentGiven", 30*365*24]); // workaround for matomo #15321
+				}
+				_paq.push([function() {
+					document.getElementsByTagName("html")[0].setAttribute("cantrack", "true");
+					if(this.hasRememberedConsent()) {
+						document.getElementsByTagName("html")[0].setAttribute("trackingcookie", "consent");
+					} else {
+						if(RegExp('(^|;)[ ]*mtm_consent_removed=([^;]*)').exec(document.cookie)) {
+							document.getElementsByTagName("html")[0].setAttribute("trackingcookie", "dissent");
+						} else {
+							document.getElementsByTagName("html")[0].removeAttribute("trackingcookie");
+						}
+					}
+				}]);
+				// add event handlers to consent/dissent buttons
+				var btns=document.querySelectorAll(".btn-trackingcookie-consent");
+				for(i=0; i<btns.length; ++i) {
+					btns[i].addEventListener("click", function(event) {
+						_paq.push(["rememberConsentGiven", 30*365*24]); // workaround for matomo #15321
+						localStorage.setItem("consent", true);
+						document.getElementsByTagName("html")[0].setAttribute("trackingcookie", "consent");
+					}, false);
+				}
+				btns=document.querySelectorAll(".btn-trackingcookie-dissent");
+				for(i=0; i<btns.length; ++i) {
+					btns[i].addEventListener("click", function(event) {
+						_paq.push(["forgetConsentGiven"]);
+						localStorage.removeItem("consent");
+						document.getElementsByTagName("html")[0].setAttribute("trackingcookie", "dissent");
+					}, false);
+				}
+			});
+		</script>
+		<script src="./Recruiting test __ think-cell_files/tracking.js.download"></script>
+		<noscript><p><img src="https://www.think-cell.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript><div id="trackingcookie-banner"><div class="container-fluid" id="trackingcookie-banner-consent-or-dissent"><div class="row"><div class="col">think-cell uses cookies to improve the functionality, performance and security of this site. Your consent is necessary if you want to use the full functionality of this site. More information on the use of cookies by think-cell, your consent and your privacy rights can be found in our <a href="https://server.think-cell.com/portal/en/redirect.srf?url=https%3A%2F%2Fwww.think-cell.com%2Fen%2Fprivacy%23cookies">privacy policy</a>.</div><div class="col-auto"><p><button type="button" class="btn btn-primary btn-sm btn-trackingcookie-consent">I consent</button></p><p><button type="button" class="btn btn-default btn-sm btn-trackingcookie-dissent">I dissent</button></p></div></div></div><div class="container-fluid" id="trackingcookie-banner-dissented">You have not given us your consent to the use of cookies. You can change this decision in our <a href="https://server.think-cell.com/portal/en/redirect.srf?url=https%3A%2F%2Fwww.think-cell.com%2Fen%2Fprivacy%23cookies">privacy policy</a>.</div></div>		<script src="./Recruiting test __ think-cell_files/lib-1.0.24.js.download"></script>
+	
+</body></html>
